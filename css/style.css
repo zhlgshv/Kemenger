@@ -28,6 +28,7 @@ nav .container{
     align-items: center;
 }
 .nav-logo{
+    cursor: pointer;
     width: 10%;
 }
 .nav-list{
@@ -40,10 +41,16 @@ nav .container{
     transition: .5s;
 }
 .nav-link:hover{
+    color: #018FA3;
     transform: scale(1.02);
 }
 .nav-contact{
     color: #000;
+    transition: .5s;
+}
+.nav-contact:hover{
+    color: #018FA3;
+    transform: scale(1.03);
 }
 .nav-contact i{
     padding: 10px;
@@ -64,6 +71,7 @@ nav .container{
     width: 60%;
 }
 .glavnaya-title{
+    cursor: pointer;
     font-size: 48px;
     color: #018FA3;
 }
@@ -130,6 +138,10 @@ nav .container{
 }
 .jobs-img{
     position: relative;
+    transition: .5s;
+}
+.jobs-img:hover{
+    opacity: 80%;
 }
 .yy{
     left: -20px;
@@ -150,6 +162,7 @@ nav .container{
 
 
 .napravlenye{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,10 +170,31 @@ nav .container{
 
 
 .mental{
+    width: 10%;
+    left: 50px;
+    top: 0;
+    position: absolute;
     text-align: center;
 }
-.yonalish{
-    
+.skor{
+    width: 10%;
+    left: 0;
+    top: 200px;
+    text-align: center;
+    position: absolute;
+}
+.school{
+    width: 10%;
+    left: 100px;
+    top: 450px;
+    text-align: center;
+    position: absolute;
+}
+.group{
+    width: 10%;
+    top: 550px;
+    position: absolute;
+    text-align: center;
 }
 
 

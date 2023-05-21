@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Commissioner', sans-serif;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+
+
+
+nav .container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    width: 10%;
+}
+.nav-list{
+    display: flex;
+}
+.nav-link{
+    margin: 0 15px;
+    font-weight: 500;
+    color: #000;
+    transition: .5s;
+}
+.nav-link:hover{
+    transform: scale(1.02);
+}
+.nav-contact{
+    color: #000;
+}
+.nav-contact i{
+    padding: 10px;
+    background-color: #018FA3;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+
+.glavnaya{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.glavnaya-text{
+    width: 60%;
+}
+.glavnaya-title{
+    font-size: 48px;
+    color: #018FA3;
+}
+.glavnaya-title b{
+    color: #000;
+}
+.glavnaya-subtext{
+    margin: 30px 0;
+    width: 55%;
+}
+
+
+.zayavka{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 32px;
+    border: 1px solid #FAE01A;
+    background-color: #FAE01A;
+    transition: .5s;
+}
+.zayavka:hover{
+    box-shadow: rgba(250, 224, 26, 0.2) 0px 20px 30px;
+}
+
+.circle{
+    position: relative;
+    width: 40%;
+}
+.circle{
+    position: relative;
+    z-index: -1;
+    left: -20px;
+    top: -50px;
+}
+.tt{
+    left: -30px;
+    position: absolute;
+}
+.pp{
+    top: 10px;
+    left: -10px;
+    position: absolute;
+    width: 85%;
+}
+
+.rec{
+    position: relative;
+    width: 27%;
+    height: 25vh;
+    border-radius: 30px;
+    background-color: #FFF7BE;
+}
+.rec p{
+    top: 20px;
+    left: -20px;
+    position: absolute;
+}
+.jobs{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.jobs-img{
+    position: relative;
+}
+.yy{
+    left: -20px;
+    position: absolute;
+    top: -20px;
+}
+.ww{
+    position: absolute;
+    left: 230px;
+    top: 130px;
+}
+.ss{
+    position: absolute;
+    top: 140px;
+    left: 235px;
+    width: 85%;
+}
+
+
+.napravlenye{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mental{
+    text-align: center;
+}
+.yonalish{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1160px){
+    .container{
+        width: 1040px;
+    }
+}
+@media (max-width:1060px){
+    .container{
+        width: 940px;
+    }
+    .rec{
+        height: 30vh;
+    }
+}
+@media (max-width:960px){
+    .container{
+        width: 840px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .glavnaya{
+        flex-direction: column;
+    }
+    .glavnaya-text{
+        width: 100%;
+        text-align: center;
+    }
+    .glavnaya-subtext{
+        width: 100%;
+    }
+    .glavnaya-img{
+        width: 100%;
+    }
+    .jobs{
+        gap: 50px;
+        flex-direction: column;
+    }
+    .rec{
+        width: 100%;
+        height: auto;
+    }
+    .rec p{
+        top: 0;
+        left: 0;
+        padding: 20px;
+        position: relative;
+    }
+    .circle{
+        display: none;
+    }
+}
+@media (max-width:860px){
+    .container{
+        width: 740px;
+    }
+}
+@media (max-width:760px){
+    .container{
+        width: 640px;
+    }
+}
+@media (max-width:660px){
+    .container{
+        width: 540px;
+    }
+}
+@media (max-width:560px){
+    .container{
+        width: 440px;
+    }
+}
+@media (max-width:460px){
+    .container{
+        width: 340px;
+    }
+    .glavnaya-title b{
+        font-size: 30px;
+    }
+}
+@media (max-width:360px){
+    .container{
+        width: 240px;
+    }
+}
